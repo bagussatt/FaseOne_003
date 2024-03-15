@@ -24,39 +24,39 @@ class DetailForm extends StatelessWidget {
       body: SafeArea(
           child: Center(
         child: Padding(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           child: Column(
             children: [
-              HeaderWidget(),
+              const HeaderWidget(),
               Text(
                 'Nama :$nama',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 'No Telp : $noTlp',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 'Nama :$makanan',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 'No Telp : $minuman',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 'No Telp : $dessert',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               FooterEnd(onPressedEnd: () {
                 Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => DataForm()),
+                    MaterialPageRoute(builder: (context) => const DataForm()),
                     (route) => false);
               })
             ],

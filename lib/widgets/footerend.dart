@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FooterEnd extends StatelessWidget {
-  FooterEnd({
+  const FooterEnd({
     super.key,
     required this.onPressedEnd,
   });
@@ -12,12 +12,12 @@ class FooterEnd extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 15,
         ),
         ElevatedButton(
           onPressed: onPressedEnd,
-          child: Text('Selesai'),
+          child: const Text('Selesai'),
         ),
       ],
     );

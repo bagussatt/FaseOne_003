@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FooterKedua extends StatelessWidget {
-   FooterKedua({super.key, required this.onPressedDetail,});
+   const FooterKedua({super.key, required this.onPressedDetail,});
 
   final VoidCallback onPressedDetail;
 
@@ -9,12 +9,12 @@ class FooterKedua extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 15,
         ),
         ElevatedButton(
           onPressed: onPressedDetail,
-          child: Text('Submit'),
+          child: const Text('Submit'),
         ),
       ],
     );

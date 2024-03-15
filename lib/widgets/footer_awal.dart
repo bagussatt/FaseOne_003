@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FooterAwal extends StatelessWidget {
-   FooterAwal({super.key, required this.onPressedMakanan,});
+   const FooterAwal({super.key, required this.onPressedMakanan,});
 
   final VoidCallback onPressedMakanan;
 
@@ -9,12 +9,12 @@ class FooterAwal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 15,
         ),
         ElevatedButton(
           onPressed: onPressedMakanan,
-          child: Text('Submit'),
+          child: const Text('Submit'),
         ),
       ],
     );

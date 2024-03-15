@@ -22,7 +22,7 @@ class _FormAwalState extends State<FormAwal> {
         TextFormField(
           controller: widget.Fnama,
           autovalidateMode: AutovalidateMode.onUserInteraction,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             labelText: 'Nama',
             hintText: 'Masukkan nama Anda',
             border: OutlineInputBorder(),
@@ -35,14 +35,14 @@ class _FormAwalState extends State<FormAwal> {
             return null;
           },
         ),
-        SizedBox(
+        const SizedBox(
           height: 25,
         ),
         TextFormField(
           controller: widget.Fnomor,
           keyboardType: TextInputType.number,
           autovalidateMode: AutovalidateMode.onUserInteraction,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             labelText: 'No Telepon Anda',
             hintText: 'Masukkan Nomor Anda',
             border: OutlineInputBorder(),
@@ -55,13 +55,13 @@ class _FormAwalState extends State<FormAwal> {
             return null;
           },
         ),
-        SizedBox(
+        const SizedBox(
           height: 25,
         ),
         TextFormField(
           controller: widget.Falamat,
           autovalidateMode: AutovalidateMode.onUserInteraction,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             labelText: 'Alamat',
             hintText: 'Masukkan Alamat Anda',
             border: OutlineInputBorder(),
@@ -74,7 +74,7 @@ class _FormAwalState extends State<FormAwal> {
             return null;
           },
         ),
-        SizedBox(
+        const SizedBox(
           height: 25,
         ),
       ],

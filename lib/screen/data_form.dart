@@ -18,7 +18,7 @@ class DataForm extends StatelessWidget {
       body: SafeArea(
           child: Center(
         child: Padding(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           child: Column(
             children: [
               HeaderWidget(),

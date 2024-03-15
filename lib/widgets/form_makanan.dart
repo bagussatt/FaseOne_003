@@ -27,40 +27,40 @@ class _FormMakananState extends State<FormMakanan> {
             TextFormField(
               controller: widget.FMakan,
               autovalidateMode: AutovalidateMode.onUserInteraction,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Makanan',
                 hintText: 'Masukkan Makanan Anda',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.person),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             TextFormField(
               controller: widget.Fminum,
               autovalidateMode: AutovalidateMode.onUserInteraction,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Minuman',
                 hintText: 'Masukkan Minuman Anda',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.person),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             TextFormField(
               controller: widget.FDessert,
               autovalidateMode: AutovalidateMode.onUserInteraction,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Dessert',
                 hintText: 'Masukkan Dessert Anda',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.person),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
           ],

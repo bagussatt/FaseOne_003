@@ -20,20 +20,20 @@ class DataMakanan extends StatelessWidget {
       body: SafeArea(
           child: Center(
         child: Padding(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           child: Column(
             children: [
-              HeaderWidget(),
+              const HeaderWidget(),
               Text(
                 'Nama :$nama',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 'No Telp : $noTlp',
-                style: TextStyle(fontSize: 25),
+                style: const TextStyle(fontSize: 25),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               FormMakanan(
                 formKey: formKey,
                 FMakan: makan,
