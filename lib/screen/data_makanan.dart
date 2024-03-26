@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ucppamlanjutfirst/screen/detail_form.dart';
-import 'package:ucppamlanjutfirst/widgets/footerkedua.dart';
-import 'package:ucppamlanjutfirst/widgets/form_makanan.dart';
+import 'package:ucppamlanjutfirst/widgets/halaman2/footerkedua.dart';
+import 'package:ucppamlanjutfirst/widgets/halaman2/form_makanan.dart';
 import 'package:ucppamlanjutfirst/widgets/header_widget.dart';
 
 class DataMakanan extends StatelessWidget {

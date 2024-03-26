@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ucppamlanjutfirst/screen/data_makanan.dart';
-import 'package:ucppamlanjutfirst/widgets/footer_awal.dart';
-import 'package:ucppamlanjutfirst/widgets/form_awal.dart';
-import 'package:ucppamlanjutfirst/widgets/form_jeniskl.dart';
+import 'package:ucppamlanjutfirst/widgets/halaman1/footer_awal.dart';
+import 'package:ucppamlanjutfirst/widgets/halaman1/form_awal.dart';
+import 'package:ucppamlanjutfirst/widgets/halaman2/form_jeniskl.dart';
 import 'package:ucppamlanjutfirst/widgets/header_widget.dart';
 
 class DataForm extends StatelessWidget {
@@ -15,6 +15,7 @@ class DataForm extends StatelessWidget {
     var alamat = TextEditingController();
     var formKey = GlobalKey<FormState>();
     return Scaffold(
+      backgroundColor: Colors.tealAccent,
       body: SafeArea(
           child: Center(
         child: Padding(
